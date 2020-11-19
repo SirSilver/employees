@@ -1,0 +1,51 @@
+.employees {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+
+    th, td {
+        border: 1px solid silver;
+        padding: 16px;
+        width: 20%;
+    }
+
+    input[type='text'], textarea {
+        border: none;
+        border-bottom: 1px solid silver;
+    }
+
+    .statuses {
+        div {
+            display: flex;
+            width: 0;
+            margin: 0 35%;
+        }
+    }
+
+    .salaries {
+        div {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            input {
+                margin: 0 8px;
+                width: 40%;
+            }
+        }
+    }
+
+    .button {
+        border: 0;
+        text-align: start;
+        
+        button:first-child {
+            margin-right: 8px;
+        }
+    }
+}
